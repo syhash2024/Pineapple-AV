@@ -15,3 +15,17 @@ Pineapple AV is a lightweight, open-source antivirus scanner built in Python. It
 * GUI: Modern Tkinter interface with tree view, details tabs (metadata, preview), filtering, and right-click actions.
 * Cross-Platform: Works on Windows/Linux/macOS (tested on Python 3.8+).
 * Extensible: Easily add more signatures, rules, or integrations.
+
+Requirements
+
+Python: 3.8+ (standard library only for core; no external deps required for basic functionality).
+Optional Dependencies (install via pip for enhanced features):
+ttkbootstrap: Modern GUI themes.
+pefile: Advanced PE parsing.
+python-magic: Accurate file type detection.
+yara-python: Full YARA rule support.
+requests: VirusTotal lookups.
+python-clamd: Local ClamAV integration (requires ClamAV daemon installed).
+
+API Keys (optional): Set VIRUSTOTAL_API_KEY environment variable for VT lookups.
+
